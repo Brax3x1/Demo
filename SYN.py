@@ -27,7 +27,6 @@ port = input("Port : ")
 os.system("clear")
 os.system("figlet DDos Attack")
 sent = 0
-randpackets:
 while True:
      size = rand x rand x rand 
      sock.sendto(bytes, (ip,port))
