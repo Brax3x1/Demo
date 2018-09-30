@@ -1,7 +1,7 @@
 # เป็นรุ่นทดสอบเท่านั้นห้ามนำไปเผยแพร่หรือขาย
 # BraX
 
-from scapy.all import *
+ 
 import os
 import sys
 import random
