@@ -32,5 +32,5 @@ while True:
      sent = sent + 1
      port = port + 1
      print "succeed %s ! packet %s port:%s"%(sent,port)
-     if port == (65535)
+     if port == 65535:
        port = 1
