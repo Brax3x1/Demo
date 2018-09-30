@@ -10,7 +10,6 @@ import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(9000)
 
-def info():
 	os.system("clear")
 	print "#############################"
 	print "#         BraX V.1          #"
